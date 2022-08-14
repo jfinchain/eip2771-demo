@@ -40,8 +40,9 @@ async function fetchAccountData() {
   if (chainId == 31337) {
     chainName = "localhost";
   } else {
-    const chainData = evmChains.getChain(chainId);
-    chainName = chainData.name;
+    // const chainData = evmChains.getChain(chainId);
+    // chainName = chainData.name;
+    chainName = "jfin-testnet";
   }
 
   document.querySelector("#network-name").textContent = chainName;

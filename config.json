@@ -1,8 +1,1 @@
-{
-    "forwarder": "0x4F002457c944935596fFbE2F737C1550a0B4476f",
-    "domain": "MinimalForwarder",
-    "version": "0.0.1",
-    "gasLimit": 210000,
-    "recipient": "0xEF90F626C7D9A1431f151CF77311836133396e4D",
-    "method": "setFlagOwner(string)"
-}
+{"forwarder":"0x1b99F5D4a18e095BabAaFaC3B94789b44cFD0bDd","domain":"MinimalForwarder","version":"0.0.1","gasLimit":210000,"recipient":"0x96a6D069E137e4aF7b21B600c2a350d8B15C9aAF","method":"setFlagOwner(string)"}
