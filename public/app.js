@@ -11,13 +11,15 @@ let signer;
 let selectedAccount;
 
 function init() {
+  /*
   if (location.protocol !== 'https:') {
     const alert = document.querySelector("#alert-error-https");
     alert.style.display = "block";
     document.querySelector("#btn-connect").setAttribute("disabled", "disabled")
     return;
   }
-
+  */
+ 
   const providerOptions = {};
 
   web3Modal = new Web3Modal({
